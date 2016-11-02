@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,27 +8,26 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="@string/happy_birthday"
         android:scaleType="centerCrop"
         android:src="@drawable/androidparty" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
         android:fontFamily="sans-serif-light"
-        android:padding="20dp"
-        android:text="Happy Birthday, Ben!"
-        android:textColor="@android:color/white"
-        android:textSize="36sp" />
+        android:text="Happy Birthday!"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
         android:fontFamily="sans-serif-light"
-        android:padding="20dp"
-        android:text="From, Lyla!"
-        android:textColor="@android:color/white"
-        android:textSize="36sp" />
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:text="From, ztrixack!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
-</RelativeLayout>
+</FrameLayout>

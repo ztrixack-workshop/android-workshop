@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Happy Birthday</string>
     <string name="happy_birthday">happy birthday</string>
+    <string name="from">From, ztrixack!</string>
 </resources>

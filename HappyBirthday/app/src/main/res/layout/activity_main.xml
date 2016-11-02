@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|center"
         android:fontFamily="sans-serif-light"
-        android:text="Happy Birthday!"
+        android:text="@string/happy_birthday"
         android:layout_margin="@dimen/activity_vertical_margin"
         android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
 
@@ -27,7 +27,7 @@
         android:layout_gravity="bottom|end"
         android:fontFamily="sans-serif-light"
         android:layout_margin="@dimen/activity_vertical_margin"
-        android:text="From, ztrixack!"
+        android:text="@string/from"
         android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
 </FrameLayout>
